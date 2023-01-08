@@ -212,6 +212,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\libgrpc_csharp_ext.x64.dylib" />
+    <None Include="bin\Debug\libgrpc_csharp_ext.x64.so" />
+    <None Include="bin\Debug\src\supermarket-5d271-firebase-adminsdk-8l7cy-f096d393a7.json" />
+    <None Include="bin\Debug\SuperMarket.exe.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -223,6 +227,94 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.xml" />
+    <Content Include="bin\Debug\Google.Api.CommonProtos.dll" />
+    <Content Include="bin\Debug\Google.Api.CommonProtos.pdb" />
+    <Content Include="bin\Debug\Google.Api.CommonProtos.xml" />
+    <Content Include="bin\Debug\Google.Api.Gax.dll" />
+    <Content Include="bin\Debug\Google.Api.Gax.Grpc.dll" />
+    <Content Include="bin\Debug\Google.Api.Gax.Grpc.pdb" />
+    <Content Include="bin\Debug\Google.Api.Gax.Grpc.xml" />
+    <Content Include="bin\Debug\Google.Api.Gax.pdb" />
+    <Content Include="bin\Debug\Google.Api.Gax.xml" />
+    <Content Include="bin\Debug\Google.Apis.Auth.dll" />
+    <Content Include="bin\Debug\Google.Apis.Auth.pdb" />
+    <Content Include="bin\Debug\Google.Apis.Auth.PlatformServices.dll" />
+    <Content Include="bin\Debug\Google.Apis.Auth.xml" />
+    <Content Include="bin\Debug\Google.Apis.Core.dll" />
+    <Content Include="bin\Debug\Google.Apis.Core.pdb" />
+    <Content Include="bin\Debug\Google.Apis.Core.xml" />
+    <Content Include="bin\Debug\Google.Apis.dll" />
+    <Content Include="bin\Debug\Google.Apis.pdb" />
+    <Content Include="bin\Debug\Google.Apis.PlatformServices.dll" />
+    <Content Include="bin\Debug\Google.Apis.xml" />
+    <Content Include="bin\Debug\Google.Cloud.Firestore.dll" />
+    <Content Include="bin\Debug\Google.Cloud.Firestore.pdb" />
+    <Content Include="bin\Debug\Google.Cloud.Firestore.V1.dll" />
+    <Content Include="bin\Debug\Google.Cloud.Firestore.V1.pdb" />
+    <Content Include="bin\Debug\Google.Cloud.Firestore.V1.xml" />
+    <Content Include="bin\Debug\Google.Cloud.Firestore.xml" />
+    <Content Include="bin\Debug\Google.Cloud.Location.dll" />
+    <Content Include="bin\Debug\Google.Cloud.Location.pdb" />
+    <Content Include="bin\Debug\Google.Cloud.Location.xml" />
+    <Content Include="bin\Debug\Google.LongRunning.dll" />
+    <Content Include="bin\Debug\Google.LongRunning.pdb" />
+    <Content Include="bin\Debug\Google.LongRunning.xml" />
+    <Content Include="bin\Debug\Google.Protobuf.dll" />
+    <Content Include="bin\Debug\Google.Protobuf.pdb" />
+    <Content Include="bin\Debug\Google.Protobuf.xml" />
+    <Content Include="bin\Debug\Grpc.Auth.dll" />
+    <Content Include="bin\Debug\Grpc.Auth.pdb" />
+    <Content Include="bin\Debug\Grpc.Auth.xml" />
+    <Content Include="bin\Debug\Grpc.Core.Api.dll" />
+    <Content Include="bin\Debug\Grpc.Core.Api.pdb" />
+    <Content Include="bin\Debug\Grpc.Core.Api.xml" />
+    <Content Include="bin\Debug\Grpc.Core.dll" />
+    <Content Include="bin\Debug\Grpc.Core.pdb" />
+    <Content Include="bin\Debug\Grpc.Core.xml" />
+    <Content Include="bin\Debug\Grpc.Net.Client.dll" />
+    <Content Include="bin\Debug\Grpc.Net.Client.pdb" />
+    <Content Include="bin\Debug\Grpc.Net.Client.xml" />
+    <Content Include="bin\Debug\Grpc.Net.Common.dll" />
+    <Content Include="bin\Debug\Grpc.Net.Common.pdb" />
+    <Content Include="bin\Debug\Grpc.Net.Common.xml" />
+    <Content Include="bin\Debug\grpc_csharp_ext.x64.dll" />
+    <Content Include="bin\Debug\grpc_csharp_ext.x86.dll" />
+    <Content Include="bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <Content Include="bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml" />
+    <Content Include="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml" />
+    <Content Include="bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\SuperMarket.exe" />
+    <Content Include="bin\Debug\SuperMarket.pdb" />
+    <Content Include="bin\Debug\SuperMarket.xml" />
+    <Content Include="bin\Debug\System.Buffers.dll" />
+    <Content Include="bin\Debug\System.Buffers.xml" />
+    <Content Include="bin\Debug\System.Collections.Immutable.dll" />
+    <Content Include="bin\Debug\System.Collections.Immutable.xml" />
+    <Content Include="bin\Debug\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\Debug\System.Diagnostics.DiagnosticSource.xml" />
+    <Content Include="bin\Debug\System.Linq.Async.dll" />
+    <Content Include="bin\Debug\System.Linq.Async.xml" />
+    <Content Include="bin\Debug\System.Memory.dll" />
+    <Content Include="bin\Debug\System.Memory.xml" />
+    <Content Include="bin\Debug\System.Numerics.Vectors.dll" />
+    <Content Include="bin\Debug\System.Numerics.Vectors.xml" />
+    <Content Include="bin\Debug\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="bin\Debug\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="bin\Debug\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="bin\Debug\System.Threading.Tasks.Extensions.xml" />
+    <Content Include="bin\Debug\System.ValueTuple.dll" />
+    <Content Include="bin\Debug\System.ValueTuple.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="packages\Grpc.Core.2.46.3\build\net45\Grpc.Core.targets" Condition="Exists('packages\Grpc.Core.2.46.3\build\net45\Grpc.Core.targets')" />
